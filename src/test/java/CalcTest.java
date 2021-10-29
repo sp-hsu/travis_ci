@@ -13,9 +13,4 @@ public class CalcTest {
 		Calc c = new Calc();
 		assertEquals(-10, c.sub(10, 20));
 	}
-	@Test
-	public void testMul() {
-		Calc c = new Calc();
-		assertEquals(200, c.mul(10, 20));
-	}
 }
